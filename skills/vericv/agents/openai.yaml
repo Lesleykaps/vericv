@@ -1,0 +1,4 @@
+interface:
+  display_name: VeriCV
+  short_description: Evidence-grounded CV matching and tailoring
+  default_prompt: Compare my CV against a job description, show an evidence map, and tailor only facts supported by my CV.

@@ -1,0 +1,12 @@
+{
+  "name": "vericv-local",
+  "interface": {"displayName": "VeriCV Local"},
+  "plugins": [
+    {
+      "name": "vericv",
+      "source": {"source": "local", "path": "./plugins/vericv"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity"
+    }
+  ]
+}
