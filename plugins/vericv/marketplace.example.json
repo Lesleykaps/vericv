@@ -1,6 +1,6 @@
 {
-  "name": "vericv-local",
-  "interface": {"displayName": "VeriCV Local"},
+  "name": "cipher-technologies-vericv",
+  "interface": {"displayName": "Cipher Technologies · VeriCV"},
   "plugins": [
     {
       "name": "vericv",

@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Evidence-grounded CV matching and tailoring without invented claims.",
   "author": {
-    "name": "VeriCV contributors",
-    "url": "https://github.com/Lesleykaps"
+    "name": "Cipher Technologies",
+    "email": "info@ciphertechnologies.co.zw",
+    "url": "https://github.com/Lesleykaps/vericv"
   },
   "homepage": "https://github.com/Lesleykaps/vericv",
   "repository": "https://github.com/Lesleykaps/vericv",
@@ -15,11 +16,11 @@
     "displayName": "VeriCV",
     "shortDescription": "Evidence-grounded CV matching and tailoring.",
     "longDescription": "Compare CV evidence with job requirements and tailor an ATS-friendly CV without adding unsupported claims.",
-    "developerName": "VeriCV contributors",
+    "developerName": "Cipher Technologies",
     "category": "Productivity",
     "websiteURL": "https://github.com/Lesleykaps/vericv",
-    "privacyPolicyURL": "https://github.com/Lesleykaps/vericv/blob/main/PRIVACY.md",
-    "termsOfServiceURL": "https://github.com/Lesleykaps/vericv/blob/main/TERMS.md",
+    "privacyPolicyURL": "https://github.com/Lesleykaps/vericv/blob/main/plugins/vericv/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/Lesleykaps/vericv/blob/main/plugins/vericv/TERMS.md",
     "capabilities": ["Local file analysis", "CV tailoring", "File creation"],
     "defaultPrompt": [
       "Compare my CV with a job description using documented evidence.",

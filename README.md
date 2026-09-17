@@ -1,18 +1,18 @@
 # VeriCV
 
-VeriCV is a Codex plugin for evidence-grounded CV matching and tailoring. It compares a candidate's documented background with a job description, classifies requirements as Strong Match, Partial Match, or Not Evidenced, and creates ATS-friendly CVs without inventing facts.
+VeriCV is a portable plugin for evidence-grounded CV matching and truthful ATS-friendly tailoring. It uses the candidate's supplied CV and profile as its factual source, and never invents qualifications, experience, metrics, or achievements.
 
-## Included skill
+## Install
 
-`$vericv` supports `analyze`, `tailor`, and `batch` modes. It works from local files or pasted content by default and uses a final claim-validation and visual-layout review before delivery.
-
-## Local development
-
-The plugin manifest is in `.codex-plugin/plugin.json`; the skill lives in `skills/vericv/`.
-
-```powershell
-python .\skills\vericv\scripts\validate_package.py
-python -m unittest discover -s .\skills\vericv\tests -v
+```text
+npx @ciphertechnologies/vericv codex
+npx @ciphertechnologies/vericv claude
 ```
 
-See [GITHUB-PUBLISHING.md](GITHUB-PUBLISHING.md) to publish this package from a GitHub repository.
+The installer adds the VeriCV marketplace, refreshes it, and installs the plugin after confirmation.
+
+## Use
+
+In Codex, use `$vericv:vericv`. In Claude Code, use `/vericv:vericv`.
+
+See [`plugins/vericv/README.md`](plugins/vericv/README.md) for validation and usage details.

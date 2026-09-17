@@ -28,6 +28,8 @@ python .\scripts\validate_package.py
 python -m unittest discover -s tests -v
 ```
 
+The optional PDF page-density helper requires `pdfplumber` only when inspecting a generated PDF. Install it with `pip install pdfplumber` if your environment does not already provide it.
+
 ## Usage
 
 ```text

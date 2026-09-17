@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cipher-technologies-vericv",
+  "description": "Evidence-grounded CV matching and tailoring from Cipher Technologies.",
+  "owner": {
+    "name": "Cipher Technologies",
+    "email": "info@ciphertechnologies.co.zw"
+  },
+  "plugins": [
+    {
+      "name": "vericv",
+      "description": "Compare CV evidence with job requirements and create truthful ATS-friendly tailoring.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Cipher Technologies",
+        "email": "info@ciphertechnologies.co.zw"
+      },
+      "source": "./plugins/vericv",
+      "category": "productivity",
+      "tags": ["cv", "resume", "career", "job-matching"]
+    }
+  ]
+}

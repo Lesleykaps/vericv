@@ -1,0 +1,30 @@
+{
+  "name": "@ciphertechnologies/vericv",
+  "version": "1.0.0",
+  "description": "Explicit, cross-platform installer for the Cipher Technologies VeriCV plugin.",
+  "license": "MIT",
+  "author": {
+    "name": "Cipher Technologies",
+    "email": "info@ciphertechnologies.co.zw"
+  },
+  "homepage": "https://github.com/Lesleykaps/vericv",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lesleykaps/vericv.git",
+    "directory": "npm/vericv-installer"
+  },
+  "bugs": {
+    "url": "https://github.com/Lesleykaps/vericv/issues"
+  },
+  "keywords": ["codex", "claude-code", "plugin", "skills", "cv", "resume"],
+  "bin": {
+    "vericv": "bin/vericv.js"
+  },
+  "files": ["bin", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

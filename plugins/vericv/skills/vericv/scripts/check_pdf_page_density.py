@@ -4,7 +4,10 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-import pdfplumber
+try:
+    import pdfplumber
+except ImportError:  # The helper's pure layout calculations remain testable without it.
+    pdfplumber = None
 
 
 def body_coverage(words: list[dict], page_height: float, margin: float = 36.0) -> float:
@@ -24,6 +27,8 @@ def body_coverage(words: list[dict], page_height: float, margin: float = 36.0) -
 
 def inspect_pdf(path: Path, minimum_body_coverage: float = 0.60) -> list[tuple[int, float]]:
     """Return (page number, coverage) for pages whose text occupies too little height."""
+    if pdfplumber is None:
+        raise RuntimeError("PDF inspection requires the optional 'pdfplumber' package. Install it with: pip install pdfplumber")
     warnings: list[tuple[int, float]] = []
     with pdfplumber.open(path) as pdf:
         for index, page in enumerate(pdf.pages, start=1):
