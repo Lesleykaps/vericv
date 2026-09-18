@@ -1,14 +1,14 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "vericv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Evidence-grounded CV matching and tailoring without invented claims.",
   "author": {
     "name": "Cipher Technologies",
     "email": "info@ciphertechnologies.co.zw",
-    "url": "https://github.com/Lesleykaps/vericv"
+    "url": "https://ciphertechnologies.co.zw/plugins/vericv"
   },
-  "homepage": "https://github.com/Lesleykaps/vericv",
+  "homepage": "https://ciphertechnologies.co.zw/plugins/vericv",
   "repository": "https://github.com/Lesleykaps/vericv.git",
   "license": "MIT",
   "keywords": ["cv", "resume", "job matching", "career"],
@@ -20,9 +20,9 @@
         "longDescription": "Compare a CV with job requirements, identify evidence-backed strengths and gaps, then create truthful ATS-friendly tailoring.",
         "developerName": "Cipher Technologies",
         "category": "Productivity",
-        "websiteURL": "https://github.com/Lesleykaps/vericv",
-        "privacyPolicyURL": "https://github.com/Lesleykaps/vericv/blob/main/plugins/vericv/PRIVACY.md",
-        "termsOfServiceURL": "https://github.com/Lesleykaps/vericv/blob/main/plugins/vericv/TERMS.md",
+        "websiteURL": "https://ciphertechnologies.co.zw/plugins/vericv",
+        "privacyPolicyURL": "https://ciphertechnologies.co.zw/plugins/vericv/privacy",
+        "termsOfServiceURL": "https://ciphertechnologies.co.zw/plugins/vericv/terms",
         "capabilities": ["Local file analysis", "CV tailoring", "File creation"],
         "defaultPrompt": [
           "Compare my CV with a job description using documented evidence.",

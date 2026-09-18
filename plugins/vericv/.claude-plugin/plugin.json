@@ -2,12 +2,12 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "vericv",
   "description": "Evidence-grounded CV matching and tailoring without invented claims.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Cipher Technologies",
     "email": "info@ciphertechnologies.co.zw"
   },
-  "homepage": "https://github.com/Lesleykaps/vericv",
+  "homepage": "https://ciphertechnologies.co.zw/plugins/vericv",
   "repository": "https://github.com/Lesleykaps/vericv.git",
   "license": "MIT"
 }

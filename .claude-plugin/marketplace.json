@@ -10,7 +10,7 @@
     {
       "name": "vericv",
       "description": "Compare CV evidence with job requirements and create truthful ATS-friendly tailoring.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Cipher Technologies",
         "email": "info@ciphertechnologies.co.zw"
